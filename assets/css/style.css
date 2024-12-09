@@ -824,6 +824,20 @@ main {
 
 
 
+.bar {
+  
+  color: hsla(0, 0%, 84%, 0.7); 
+  text-align: center; 
+  padding: 20px 0; 
+  font-size: 14px; 
+  font-family: 'Poppins', sans-serif; 
+  position: relative; 
+  bottom: 0; 
+  width: 100%;
+}
+
+  
+
 
 /*-----------------------------------*\
   #CONTACT
@@ -940,14 +954,21 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
+@media (min-width:425px) {
+
+  .bar{
+    font-size: 13px;
+  }
+  
+}
+
+
 @media (min-width: 450px) {
 
-  /**
-   * client
-   */
-
-  .clients-item { min-width: calc(33.33% - 10px); }
-
+  .bar{
+    font-size: 15px;
+  }
+  
 
 
   /**
@@ -1112,20 +1133,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .service-content-box { text-align: left; }
-
-
-
-  /* clients */
-
-  .clients-list {
-    gap: 50px;
-    margin: 0 -30px;
-    padding: 45px;
-    scroll-padding-inline: 45px;
-  }
-
-  .clients-item { min-width: calc(33.33% - 35px); }
-
 
 
   /**
