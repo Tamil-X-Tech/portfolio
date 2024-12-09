@@ -957,7 +957,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 @media (min-width:425px) {
 
   .bar{
-    font-size: 13px;
+    font-size: 12px;
   }
   
 }
